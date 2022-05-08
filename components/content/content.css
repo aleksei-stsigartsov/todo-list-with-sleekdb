@@ -1,0 +1,114 @@
+/* hero */
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("") top center no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  #hero2{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #hero:before {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 650;
+    color: #fff;
+    line-height: 110px;
+    text-align: center;
+  }
+  
+  #hero h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin:0;
+  }
+  
+  #hero p {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  #hero .blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+  }
+  
+  
+  .something {
+    display: none;
+  }
+  
+  .showI {
+    display: block;
+  }
+  
+  #hero .input-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 800px;
+  }
+  
+
+  @media (max-width: 600px) {
+    #hero .blocktext {
+      margin-left: auto;
+      margin-right: auto;
+      width: 24rem;
+    }
+    #hero h1 {
+      font-family: "Raleway", sans-serif;
+      margin: 0;
+      font-size: 40px;
+      font-weight: 650;
+      color: #fff;
+      line-height: 110px;
+      text-align: center;
+    }
+    #hero .input-get-started {
+      width: 350px;
+    }
+  }
+  
+  
+  
+  

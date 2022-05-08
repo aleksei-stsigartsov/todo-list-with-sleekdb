@@ -1,0 +1,31 @@
+/* root dom */
+
+body {
+    display: block;
+    margin: 0px;
+    background-color: #222;
+  }
+  section {
+    padding: 10px 0px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  * {
+    scrollbar-width: thin;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 1px;
+    height: 5px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #20252A;
+    border-radius: 1px;
+    outline: 1px solid white;
+  }

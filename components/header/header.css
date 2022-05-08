@@ -1,0 +1,76 @@
+/* navbar */
+
+.containerc {
+    max-width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    
+  }
+  
+  .navbar a {
+    display: block;
+    position: relative;
+    color: white;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+  }
+  .navbar a:hover{
+    color: #adadad;
+    text-decoration: underline;
+  }
+  
+  .logo {
+    margin-left: 50%;
+    max-height: 80px;
+  }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  #toggler,
+  .navbar label {
+    display: none;
+  }
+  
+  .logoplus {
+    transition: 1s; /* Время эффекта */
+  }
+  .logoplus:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+  
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+  
+    .navbar label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+  
+    #toggler:checked~.menu {
+        max-height: 100%;
+    }
+  }

@@ -1,0 +1,129 @@
+#todobox {
+    height: 500px;
+    width: 800px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+#todobox ol li {
+    text-align: left;
+    float: left;
+    padding-left: 2%;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    margin-right: 5px;
+    border: 0px;
+    width: 80%;
+    margin-top: 5px;
+}
+
+#todobox hr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+#todobox .btn-del {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+
+#todobox .btn-del:hover {
+    background: red;
+    border-color: #fff;
+    color: white;
+    cursor: pointer;
+}
+
+#todobox .btn-check {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+
+
+#todobox .btn-check:hover {
+    background: green;
+    border-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+#todobox .todoactive{
+    text-decoration: none;
+}
+#todobox .tododone{
+    text-decoration: line-through;
+}
+
+
+
+@media (max-width: 600px) {
+    #todobox {
+        width: 350px;
+        height: 600px;
+    }
+    #todobox ol li {
+        
+        margin-right: 5px;
+        width: 70%;
+    }
+    #todobox .btn-del {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: 0.5s;
+        color: #fff;
+        background: transparent;
+        border: 2px solid #fff;
+    }
+    
+    #todobox .btn-check {
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: 0.5s;
+        color: #fff;
+        background: transparent;
+        border: 2px solid #fff;
+        margin-right: 5px;
+    }
+}
+
