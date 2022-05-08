@@ -1,4 +1,8 @@
 Installation:
+1.
+2.
+3.
+
 1.git clone
 2.enter in terminal "php -S localhost:8000"
 3.enjoy
